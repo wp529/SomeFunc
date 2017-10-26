@@ -49,8 +49,8 @@ public class EmailUtil {
                     content.append("android版本号API:").append(Build.VERSION.SDK_INT).append("\r\n");
                     content.append("手机制造商:").append(Build.MANUFACTURER).append("\r\n");
                     content.append("手机型号:").append(Build.MODEL).append("\r\n");
-                    String account = "xdwt@zhphfinance.com"; //发送邮箱的账号
-                    String password = "ZHph2017"; //发送邮箱的密码
+                    String account = "xxwangping@zhphfinance.com"; //发送邮箱的账号
+                    String password = "xxxxxxxxxxxxxxxx"; //发送邮箱的密码
                     //发送邮件
                     sendMail(new String[]{"wowangping.com@qq.com", "15680351591@163.com"}, account, "smtp.mxhichina.com",
                             account, password, "崩溃日志", content.toString(), "");
